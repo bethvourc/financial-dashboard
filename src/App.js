@@ -1,5 +1,6 @@
 import React from 'react';
 import Dashboard from './components/Dashboard';
+import DashboardBody from './components/DashboardBody';
 
 function App() {
     return (
@@ -8,6 +9,7 @@ function App() {
                 <h1>Financial Dashboard</h1>
             </header>
             <Dashboard />
+            <DashboardBody/>
         </div>
     );
 }

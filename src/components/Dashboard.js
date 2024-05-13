@@ -19,7 +19,7 @@ function Dashboard() {
         <div>
             {data.map(item => (
                 <div key={item.id}>
-                    {/* Render your data here */}
+                    {/* Render data here */}
                     <p>{JSON.stringify(item)}</p>
                 </div>
             ))}
